@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Registration complete
+{% endblock %}
+
+{% block body %}
+    <h1>You successfully registered!</h1>
+    <a href="{{ url_for('login') }}" class="btn btn-info" role="button"> Log in </a>
+{% endblock %}
